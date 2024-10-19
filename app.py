@@ -2,6 +2,8 @@ from flask import Flask, request, render_template, redirect, url_for
 import cv2
 import numpy as np
 import os
+import win32api
+print("pywin32 is installed and working!")
 
 app = Flask(__name__)
 
